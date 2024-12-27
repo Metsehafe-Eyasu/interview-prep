@@ -1,3 +1,69 @@
-site_name: Top Tech Interview Preparation Guide
+site_name: "Top Tech Interview Preparation Guide"
+site_description: "A comprehensive resource for interviews at top tech companies."
+site_url: "https://metsehafe-eyasu.github.io/interview-prep/"
+repo_url: "https://github.com/<your-username>/interview-prep"
+repo_name: "interview-prep"
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.top
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-4
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-5
+        name: Switch to light mode
+
 nav:
   - Home: index.md
+
+  # Consolidate all companies under one top-level "Companies" nav item
+  - Companies:
+      - Example:
+          - Guide: example/guide.md
+          - Technical:
+              - Example Technical: example/technical/example-technical-question.md
+          - System Design:
+              - Example System Design: example/system-design/example-system-design-question.md
+          - Behavioral:
+              - Example Behavioral (Multiple Qs): example/behavioral/example-behavioral-questions.md
+
+      - Bloomberg:
+          - Guide: bloomberg/guide.md
+          - Technical:
+              - (Add your files here): bloomberg/technical/example-technical.md
+          - System Design:
+              - (Add your files here): bloomberg/system-design/example-system-design.md
+          - Behavioral:
+              - (One file with multiple Qs): bloomberg/behavioral/example-behavioral.md
+
+      - Google:
+          - Guide: google/guide.md
+          - Technical:
+              - (Add your files here): google/technical/some-technical.md
+          - System Design:
+              - (Add your files here): google/system-design/some-system-design.md
+          - Behavioral:
+              - (Single file for multiple Qs): google/behavioral/john-summer-questions.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: "https://github.com/<your-username>/<repo-name>"
+    - icon: fontawesome/brands/linkedin
+      link: "https://linkedin.com/in/<your-profile>/"
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true

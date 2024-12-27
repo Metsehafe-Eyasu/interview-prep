@@ -16,7 +16,7 @@ A central hub for interview prep at various tech companies. Our site (built with
 2. Install MkDocs locally (Python 3 required):
 
 ```bash
-pip install mkdocs
+pip install mkdocs mkdocs-material
 ```
 
 3. Run the local server:
@@ -25,7 +25,7 @@ pip install mkdocs
     mkdocs serve
 ```
 
-    Then open http://127.0.0.1:8000.
+> Then open http://127.0.0.1:8000.
 
 ## Contributing
 
