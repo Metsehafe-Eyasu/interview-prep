@@ -24,32 +24,29 @@ nav:
 
   # Consolidate all companies under one top-level "Companies" nav item
   - Companies:
-      - Example:
-          - Guide: example/guide.md
-          - Technical:
-              - Example Technical: example/technical/example-technical-question.md
-          - System Design:
-              - Example System Design: example/system-design/example-system-design-question.md
-          - Behavioral:
-              - Example Behavioral (Multiple Qs): example/behavioral/example-behavioral-questions.md
+      # - Example:
+      #     - Guide: example/guide.md
+      #     - Technical:
+      #         - Example Technical: example/technical/example-technical-question.md
+      #     - System Design:
+      #         - Example System Design: example/system-design/example-system-design-question.md
+      #     - Behavioral:
+      #         - Example Behavioral (Multiple Qs): example/behavioral/example-behavioral-questions.md
 
       - Bloomberg:
           - Guide: bloomberg/guide.md
           - Technical:
-              - (Add your files here): bloomberg/technical/example-technical.md
+              - Welsh Dictionary Sorting: bloomberg/technical/welsh-dictionary-sorting.md
+              - Autocorrect Class: bloomberg/technical/autocorrect-class.md
+              - Invalid Transactions: bloomberg/technical/invalid-transactions.md
+              - Decode String: bloomberg/technical/decode-string.md
+              - Palindrome Number: bloomberg/technical/palindrome-number.md
+              - Design Circular Queue: bloomberg/technical/design-circular-queue.md
+              - Range Sum Query 2D (Mutable): bloomberg/technical/range-sum-query-2d-mutable.md
           - System Design:
-              - (Add your files here): bloomberg/system-design/example-system-design.md
+              - Audit system design: bloomberg/system-design/audit-system-design.md
           - Behavioral:
-              - (One file with multiple Qs): bloomberg/behavioral/example-behavioral.md
-
-      - Google:
-          - Guide: google/guide.md
-          - Technical:
-              - (Add your files here): google/technical/some-technical.md
-          - System Design:
-              - (Add your files here): google/system-design/some-system-design.md
-          - Behavioral:
-              - (Single file for multiple Qs): google/behavioral/john-summer-questions.md
+              - Metsehafe Summer 2024: bloomberg/behavioral/metsehafe-summer-2024.md
 
 extra:
   social:
