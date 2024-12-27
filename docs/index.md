@@ -1,17 +1,22 @@
-# Welcome to MkDocs
+# Welcome to the Tech Interview Preparation Guide
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+This site is dedicated to helping you prepare for interviews at top tech companies. 
+We’ve compiled **company-specific guides**, **technical questions**, **system design scenarios**, 
+and **behavioral tips** to streamline your study process.
 
-## Commands
+---
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## How to Use This Site
 
-## Project layout
+- **Browse the Navigation**: Use the sidebar (or top menu) to find:
+  - **Example** (sample folder structure and question templates)
+  - **Companies** (e.g., Google, Bloomberg, etc.)
+    - Each company has a *Guide*, *Technical Questions*, *System Design*, and *Behavioral* section.
+- **Open a File**: Click any link in the navigation to read a specific question, design scenario, or interview guide.
+- **Search**: If you’ve enabled MkDocs’ built-in search, use it to quickly find topics or keywords.
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+---
+
+**Happy Studying!**  
+Explore the guides, practice coding questions, revise system design fundamentals, 
+and brush up on behavioral insights for a well-rounded interview prep experience.
